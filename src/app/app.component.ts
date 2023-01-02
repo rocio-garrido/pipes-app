@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  nombre: string = 'fernaNdo herRera';
+  valor: number = 1000;
+
+  mostrarNombre() {
+    console.log(this.nombre);
+    console.log(this.valor);
+  }
+
   title = 'pipes';
 }
