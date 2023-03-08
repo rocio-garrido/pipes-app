@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
 })
 export class BasicosComponent {
 
+  nombreLower: string = 'fernando';
+  nombreUpper: string = 'FERNANDO';
+  nombreCompleto: string = 'fErNando herRera';
 }
