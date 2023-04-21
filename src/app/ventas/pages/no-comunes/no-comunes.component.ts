@@ -23,4 +23,8 @@ export class NoComunesComponent {
     'other': 'tenemos # clientes esperando.'
   }
 
+  borrarCliente() {
+    this.clientes.pop();
+  }
+
 }

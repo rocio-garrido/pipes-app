@@ -17,5 +17,12 @@
     <p-fieldset legend="i18nPlural Pipe" [toggleable]="true">
       <p>Actualmente {{ clientes.length | i18nPlural : clientesMapa }}</p>
     </p-fieldset>
+
+    <button
+      (click)="borrarCliente()"
+      pButton
+      label="Borrar cliente"
+      class="p-button-danger"
+    ></button>
   </div>
 </div>
